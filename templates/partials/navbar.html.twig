@@ -1,0 +1,31 @@
+<nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+    <div class="container">
+        <a class="navbar-brand" href="{{ path('app_home') }}">📚 QuizMaster</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        {# <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item"><a class="nav-link" href="{{ path('app_quiz_list') }}">📋 Tous les quiz</a></li>
+                            
+                {% if is_granted('IS_AUTHENTICATED_FULLY') %}
+                    <li class="nav-item"><a class="nav-link" href="{{ path('app_quiz_new') }}">➕ Créer un quiz</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ path('app_favorites') }}">⭐ Favoris</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ path('app_profile') }}">👤 Mon Profil</a></li>
+                {% endif %}
+
+                {% if is_granted('ROLE_ADMIN') %}
+                    <li class="nav-item"><a class="nav-link" href="{{ path('app_admin_stats') }}">📊 Statistiques</a></li>
+                {% endif %}
+            </ul>
+
+            <ul class="navbar-nav">
+            {% if is_granted('IS_AUTHENTICATED_FULLY') %}
+                <li class="nav-item"><a class="nav-link" href="{{ path('app_logout') }}">🚪 Déconnexion</a></li>
+            {% else %}
+                <li class="nav-item"><a class="nav-link" href="{{ path('app_login') }}">🔑 Connexion</a></li>
+            {% endif %}
+            </ul>
+        </div> #}
+    </div>
+</nav>

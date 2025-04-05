@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Inscription{% endblock %}
+
+{% block body %}
+    <h1>Inscription</h1>
+
+    {{ form_errors(registrationForm) }}
+    <br>
+    {{ form_start(registrationForm) }}
+        {{ form_row(registrationForm.firstName, {'attr':{'class': 'form-control'}}) }}
+        {{ form_row(registrationForm.lastName, {'attr':{'class': 'form-control'}}) }}
+        {{ form_row(registrationForm.username, {'attr':{'class': 'form-control'}}) }}
+        {{ form_row(registrationForm.email, {'attr':{'class': 'form-control'}}) }}
+        {{ form_row(registrationForm.plainPassword, {'label': 'Password',
+    'attr': {'class': 'form-control'}}) }}
+        <br>
+        {{ form_row(registrationForm.agreeTerms) }}
+        <br>
+        <button type="submit" class="btn btn-lg btn-primary">Inscription</button>
+    {{ form_end(registrationForm) }}
+{% endblock %}

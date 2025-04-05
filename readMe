@@ -1,0 +1,34 @@
+Quizzes
+
+Projet : SiteWeb fait en Symfony 7, un jeu de Quizz où l'utilisateur peu jouer, créer et partager des quizz. 
+
+Etapes :
+- Installation de Symfony 7.
+- Configuration et connexion à la base de donnée.
+- Formulaire d'inscription et de connexion.
+- Ajout de CSS.
+- Ajouter et decrire les categories.
+- Ajouter, modifier et supprimer les quizz de l'utilisateur.
+- Dans "modifier mon quizz", en plus de modifier le titre, ajouter des questions et des reponses choix multiples (min 2 reponses).
+- Affichez les quizz de l'utilisateur dans son espace.
+- Affichez tous les quizz dans l'accueil.
+- Faire un compte de score.
+
+Etape 2 : Base de donnée
+- Modification du fichier env.
+- J'ai mis boostrap dans la base.htmnl.twig.
+- Génération des entités de la base de donnée "php bin/console make:entity" : Answer, Category, Participation, Question, Quiz, Statistics et User.
+
+Etape 3 : Inscription et Connexion
+- Générer un formulaire d'inscription
+- Créer un contrôleur d'inscription et créer la fonction register()
+
+Etape Plus:
+- Création du fichier navbar et configuration de la barre de navigation
+
+Etape 4 :
+- Debut de configuration du style
+
+Etape 5:
+
+
