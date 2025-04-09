@@ -13,6 +13,7 @@ Etapes :
 - Affichez les quizz de l'utilisateur dans son espace.
 - Affichez tous les quizz dans l'accueil.
 - Faire un compte de score.
+- Terminer la configuration des styles
 
 Etape 2 : Base de donnée
 - Modification du fichier env.
@@ -30,5 +31,30 @@ Etape 4 :
 - Debut de configuration du style
 
 Etape 5:
+- Création le formulaire pour categorie
+- Création de la fonction newCategory() avec disposition de l'affichage et creation de la vue
+- Création de la fonction updateCategory() avec disposition de l'affichage et creation de la vue
+- Création de la fonction deleteCategory() avec disposition de l'affichage et creation de la vue
+
+Etape Plus :
+- Création de la page by_category.html.twig pour afficher la liste des quizz de la categorie 
+
+Etape 6:
+- Création le formulaire pour quiz
+- Création de la fonction newQuiz() avec disposition de l'affichage et creation de la vue
+- Création de la fonction updateQuiz() avec disposition de l'affichage et creation de la vue
+- Création de la fonction deleteQuiz() avec disposition de l'affichage et creation de la vue
+
+Etape 7:
+- Création le formulaire pour question
+- Création de la fonction newQuestion() avec disposition de l'affichage et creation de la vue
+- Création de la fonction updateQuestion() avec disposition de l'affichage et creation de la vue
+- Création de la fonction deleteQuestion() avec disposition de l'affichage et creation de la vue
+
+Etape 8:
+- Création le formulaire pour answer
+- Création de la fonction newAnswer() avec disposition de l'affichage et creation de la vue
+- Création de la fonction updateAnswer() avec disposition de l'affichage et creation de la vue
+- Création de la fonction deleteAnswer() avec disposition de l'affichage et creation de la vue
 
 
